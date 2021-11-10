@@ -1,0 +1,6 @@
+[{"id":1,"nombre":"estatua rostro","desc":"Estatua de Buda color blanco, su material es yeso con acrilico.","precio":"1000", "img":"./media/articulos/estatuaRostro.jpeg"},
+{"id":2,"nombre":"florero disco","desc":"Florero geométrico color blanco mate.","precio":"1500", "img":"./media/articulos/floreroDisco.jpeg"},
+{"id":3,"nombre":"perchero nordico","desc":"Hermoso perchero nórdico de madera restaurada, ideal para ambientes pequeños.","precio":"2000", "img":"./media/articulos/percheroNordico.jpeg"},
+{"id":4,"nombre":"Espejo circular","desc":"Espejo de 60cm de diametro con borde de hierro.","precio":"1800", "img":"./media/articulos/espejoCircular.jpeg"},
+{"id":5,"nombre":"cuadro Hilo","desc":"Cuadro artesanal de hilo de seda, color natural.","precio":"700", "img":"./media/articulos/cuadroHilo.jpeg"},
+{"id":6,"nombre":"silla Plegable","desc":"silla plegable de 3 formas diferentes, ideal para espacios chicos. Madera restaurada.","precio":"2700", "img":"./media/articulos/sillaPlegable.jpeg"}]

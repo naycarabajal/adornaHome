@@ -1,0 +1,24 @@
+
+.siteFooter{
+	background: linear-gradient(to top, #c8be75, white);
+	.siteFooter__linksFotter{
+	margin-top: 10rem;
+	text-decoration: none;
+	color:#353c17;
+	}
+	.siteFooter__linksFotter:hover {
+	margin-top: 10rem;
+	color:black;
+	transform: scale(1.04);
+	}
+}
+
+#textFotter{
+	font-size:0.7rem;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	margin-top:2.5rem;
+	margin-bottom: -2rem;
+}
+

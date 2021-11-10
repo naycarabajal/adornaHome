@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+
+$varWidth:8vw;
+
+@mixin sizeImag($tipoImagen) {
+	@if $tipoImagen==mediana{
+			width:($varWidth)+30;
+			border-radius: 1rem;
+	}@else if $tipoImagen==grande{
+		width:($varWidth)+50;
+		border-radius: 0rem;
+	}@else if $tipoImagen==pequenia{
+		width:($varWidth);
+		border-radius: 1rem;
+	}@else{
+		width:$varWidth;
+	}
+}
+
+#socialMedia{
+	width:2.5rem;
+}
+
+@mixin sizes($width,$height) {
+	width: $width;
+	height: $height;
+}
+
+
+

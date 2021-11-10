@@ -1,0 +1,5 @@
+let stockProductos = [];
+let carrito =[];
+
+
+

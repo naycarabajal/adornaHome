@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+@import "footer";
+@import "mixin";
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+/* Inicio flotar elemento */
+
+:root{
+	font-size:1rem;
+}
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+			width:48px;
+			position:fixed;
+			top:38rem;
+			left: 88rem;
+		}
+
+/* Fin flotar elemento */
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.column{
+	align-items:center;
+	text-align:center;
+}
+
+.textoIntro{
+		font-size:2rem;
+		color: #565656;
+		text-align:center;
+		background-color:white;
+		align-items:center;
+		margin-top: 5rem;
+		margin-bottom:5rem;
+}
+
+#textoModal{
+		color: #c8be75;
+}
+
+.container{
+			width:75%;
+			max-width:100rem;
+			padding:1rem 2rem;
+			margin:auto;
+		}
+
+
+p{
+	color: #404D49;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	word-spacing:3px;
+	margin: 1rem 1rem 3rem 1rem;
+}
+
+a{
+	color: #6E7175;
+	text-align:center;
+	display:block;
+	margin:auto;
+}
+
+a:hover {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+.fotoDinamica{
+	filter: sepia(20%);
+}
+
+.fotoDinamica:hover {
+		filter: sepia(0%);
+		transform:scale(1.1);
+}
+
+.seccionesIntro{
+	display:flex;
+	flex-wrap:wrap;
+	align-content: stretch;
+	justify-content: space-evenly;
+	align-items:stretch;
+	text-align:center;
+
+}
+
+.fotoBorde{
+	border-style:none;
+}
+
+.fotoBorde:hover {
+	border-style: solid;
+	color:#a6a6a6;
+}
+
+
+.fotoGiratoria{
+		background-color:black;
+}
+
+.fotoGiratoria:hover {
+	transform:rotateY(180deg);
+}
+
+img{
+	width:100px;
+	display:block;
+	margin: auto;
+}
+
+.fotoMedium{
+	@include sizeImag(mediana);
+}
+
+.fotoPequenia{
+	@include sizeImag(pequenia);
+}
+
+.fotoGrande{
+	@include sizeImag(grande);
+}
+
+ul {
+ list-style-position: inside;
+ list-style-type: none; 
+}
+
+ul li{
+	 list-style-position: inside;
+}
+
+iframe{
+	padding-left: 2rem;
+}
+
+
+
+
+
+.margenVertical{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.margenHorizontal{
+	margin-left:2rem;
+	margin-right: 2rem;
+
+}
+
+
+#menuFlex{
+	display:flex;
+	flex-direction: vertical;
+	flex-wrap: no-wrap;
+	justify-content: center;
+
+}
+
+#carritoAdorna{
+	width: 3rem;
+	margin-left:0.5rem;
+}
+.margenMin{
+	margin:2rem;
+}
+
+#logoAdorna{
+	width:8rem;
+	margin-left:24.5rem;
+}
